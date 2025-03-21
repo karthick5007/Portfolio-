@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +15,12 @@
             font-family: Arial, sans-serif;
         }
         body {
-            background-color: #00FFFF; /* Changed to Cyan */
+            background-color: #00FFFF; 
             color: black;
             text-align: center;
         }
 
-       
-        .banner {
+   .banner {
             background: url('31632aa5f671c9c7045d341526e5decf.jpg') no-repeat center center/cover;
             height: 250px;
             display: flex;
@@ -36,7 +37,7 @@
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
 
-        /* Navigation */
+ /* Navigation */
         header {
             background: #333;
             padding: 15px;
@@ -56,7 +57,7 @@
             font-size: 1.2rem;
         }
 
-        /* Hero Section */
+ /* Hero Section */
         .hero {
             height: 60vh;
             display: flex;
@@ -76,7 +77,7 @@
             margin-top: 15px;
         }
 
-        /* Skills Section */
+  /* Skills Section */
         .skills-container {
             display: flex;
             flex-wrap: wrap;
@@ -88,8 +89,7 @@
             margin: 5px;
             border-radius: 5px;
         }
-
-        /* Projects Section */
+   /* Projects Section */
         .projects-container {
             display: flex;
             justify-content: center;
@@ -103,8 +103,7 @@
             width: 300px;
             color: white;
         }
-
-        /* Contact Section */
+    /* Contact Section */
         form {
             display: flex;
             flex-direction: column;
@@ -126,7 +125,7 @@
             border-radius: 5px;
         }
 
-        /* Footer */
+  /* Footer */
         footer {
             background: #333;
             padding: 15px;
@@ -136,13 +135,11 @@
     </style>
 </head>
 <body>
-
-    <!-- Banner Section -->
+ <!-- Banner Section -->
     <div class="banner">
         <h1 class="name">Karthick B</h1>
     </div>
-
-    <!-- Navigation -->
+  <!-- Navigation -->
     <header>
         <nav>
             <ul>
@@ -154,21 +151,18 @@
             </ul>
         </nav>
     </header>
-
-    <!-- Hero Section -->
+ <!-- Hero Section -->
     <section id="home" class="hero">
         <h1>Hi, I'm <span>Karthick B</span></h1>
         <p>A passionate Developer specialized in Web & Software Development.</p>
         <a href="#contact" class="btn">Hire Me</a>
     </section>
-
-    <!-- About Section -->
+   <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
         <p>I am a **BCA graduate** with expertise in **HTML, CSS, JavaScript, Java, Python, C++, DSA, and SQL**. I love solving real-world problems through code and building interactive web applications.</p>
     </section>
-
-    <!-- Skills Section -->
+ <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
         <div class="skills-container">
@@ -184,7 +178,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+<section id="projects">
         <h2>Projects</h2>
         <div class="projects-container">
             <div class="project-card">
@@ -199,7 +193,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+  <section id="contact">
         <h2>Contact Me</h2>
         <form>
             <input type="text" placeholder="Your Name" required>
@@ -209,12 +203,12 @@
         </form>
     </section>
 
-    <footer>
+<footer>
         <p>© 2025 Karthick B. All Rights Reserved.</p>
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
+ <script>
+    document.addEventListener("DOMContentLoaded", () => {
             const scrollLinks = document.querySelectorAll("nav ul li a");
             scrollLinks.forEach(link => {
                 link.addEventListener("click", e => {
